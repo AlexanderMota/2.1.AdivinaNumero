@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_2._1.AdivinanNumero"
         mc:Ignorable="d"
-        Title="MainWindow" Height="223.121" Width="607.306">
+        Title="Adivinas" Height="223.121" Width="607.306" >
     <Grid Margin="10,10,11,0" Height="199" VerticalAlignment="Top">
         <TextBlock 
             x:Name="SaludoTextBlock" 
@@ -37,24 +37,26 @@
 
         <TextBox 
             x:Name="numeroTextBox" 
-            Margin="60,113,256,52" RenderTransformOrigin="0.5,0.5"/>
+            Margin="60,113,256,63" RenderTransformOrigin="0.5,0.5"/>
 
         <Button 
             x:Name="jugarBoton" 
             Margin="380,113,128,0" 
-            Height="34" 
+            Height="23" 
             VerticalAlignment="Top" 
-            Click="Button_Click" 
+            Click="Boton_Click" 
             Content="Aceptar" 
-            FontSize="15"/>
+            FontSize="15"
+            IsDefault="true"/>
 
         <Button 
             x:Name="reiniciarBoton" 
             Margin="455,113,53,0" 
-            Height="34" 
+            Height="23" 
             VerticalAlignment="Top" 
-            Click="reiniciarBoton_Click"
+            Click="ReiniciarBoton_Click"
             Content="Reiniciar" 
-            FontSize="15"/>
+            FontSize="15"
+            IsCancel="True"/>
     </Grid>
 </Window>
