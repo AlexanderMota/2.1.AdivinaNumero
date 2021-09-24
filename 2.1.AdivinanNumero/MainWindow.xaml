@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_2._1.AdivinanNumero"
         mc:Ignorable="d"
-        Title="Adivinas" Height="223.121" Width="607.306" >
+        Title="Adivinas" Height="223.121" Width="607.306" Icon="img/128.ico">
     <Grid Margin="10,10,11,0" Height="199" VerticalAlignment="Top">
         <TextBlock 
             x:Name="SaludoTextBlock" 
